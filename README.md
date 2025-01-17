@@ -14,3 +14,5 @@ Done👍
 - Then activate the venv using command `jobhorizon\scripts\activate`
 - Install all the required libraries `pip install -r requirements.txt`
 Done👍
+
+Also, please upgrade your pip⬆️ to avoid issues.
