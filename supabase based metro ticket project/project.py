@@ -13,7 +13,7 @@ try:
         case 2:
             station_name = 'Sultan Pura'
         case 3:
-            station_name = 'Railwat Station'
+            station_name = 'Railway Station'
     selected_station = station_name
     station_price = stations[station_name]
     print(f"You selected: {selected_station} with a ticket price of Rs. {station_price}.")
