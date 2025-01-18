@@ -15,9 +15,9 @@ def ticket_counter():
                 station_name = 'Sultan Pura'
             case 3:
                 station_name = 'Railwat Station'
-        
+        selected_station = station_name
         station_price = stations[station_name]
-        print(f"You selected: {station_name} with a ticket price of Rs. {station_price}.")
+        print(f"You selected: {selected_station} with a ticket price of Rs. {station_price}.")
     except ValueError:
         print("Invalid input. Please enter a number corresponding to the station.")        
 

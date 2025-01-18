@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from supabase import create_client
+from project import stations, ticket_counter
 load_dotenv()
 
 url = os.environ.get("SUPABASE_URL")
